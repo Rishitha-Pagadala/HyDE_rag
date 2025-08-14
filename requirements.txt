@@ -1,6 +1,8 @@
-streamlit
+streamlit==1.30.0
+numpy
+pandas
+scikit-learn
+requests
+transformers==4.34.0  # Only if needed; avoids source compilation
 sentence-transformers
 faiss-cpu
-llama-cpp-python
-PyPDF2
-python-docx
